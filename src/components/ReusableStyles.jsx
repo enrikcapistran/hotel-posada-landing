@@ -13,7 +13,7 @@ export const TitleStyles = css`
             }
         }
         .yellow{
-            color: #f9c74f;
+            color: #02A126;
         }
         p{
             padding: 0 10vw;

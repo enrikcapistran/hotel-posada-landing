@@ -3,26 +3,23 @@ import styled from 'styled-components'
 import { TitleStyles } from './ReusableStyles'
 export default function Newsletter() {
   return (
-    <Section>
-      <div className="title">
-        <h1>
-          <span>Suscribe</span> Newsletter
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat delectus earum dolorem? Doloribus, quasi velit.
-        </p>
+      
+    <div>
+      <h1>Ubicación</h1>
+      <div className="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14925.159689580905!2d-103.3094589!3d20.7390399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b0f528cb4969%3A0x32f4966302ee14ca!2sHotel%20Posada%20Mirador!5e0!3m2!1ses!2smx!4v1694981734298!5m2!1ses!2smx" 
+        width="1200" height="100" allowFullScreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Responsive Google Map"></iframe>
       </div>
-      <div className="container">
-        <input type="text" placeholder='Search for food ...' />
-        <button>Search</button>
-      </div>
-    </Section>
+    </div>
+      
+   
   );
 }
 
 const Section = styled.section`
-border: 0.01rem solid black;
-padding: 4rem;
+//border: 0.01rem solid black;
+//padding: 4rem;
 display: flex;
 flex-direction: column;
 gap: 2rem;

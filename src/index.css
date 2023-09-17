@@ -45,3 +45,20 @@ section{
   visibility: visible !important;
   right: 0 !important;
 }
+
+.map-responsive{
+  overflow: hidden;
+  padding-bottom: 50.25%;
+  position:relative;
+  height: 0;
+
+}
+
+.map-responsive iframe{
+  left: 0;
+  top: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

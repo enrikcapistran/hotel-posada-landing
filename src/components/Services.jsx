@@ -18,7 +18,7 @@ export default function Services() {
       <div className="service">
         <img src={Service2} alt="Service" />
         <p>
-        Contamos con alberca, salas de masaje, terraza, sauna & spa. <span>En nuestras instalaciones</span>, los esperamos!{" "}
+        Contamos con alberca, terraza, sauna & spa. <span>En nuestras instalaciones</span>, los esperamos!{" "}
         </p>
         <button>Ver Más</button>
       </div>
@@ -54,7 +54,7 @@ const Section = styled.section`
       flex-direction: column;
       align-items: center;
       gap: 1.5vw;
-      padding: 0 3vw;
+      padding: 0 1vw;
       img {
         height: 2.8rem;
       }
@@ -64,7 +64,8 @@ const Section = styled.section`
         font-size: 1.1rem;
         letter-spacing: 0.1rem;
         span{
-          color: #fc4958;
+          color: #67b242;
+          font-weight: 600;
         }
       }
       button {
@@ -74,18 +75,18 @@ const Section = styled.section`
         font-size: 1.1rem;
         border: none;
         color: white;
-        background-color: #fc4958;
+        background-color: #02A126;
         transition: 0.3s ease-in-out;
         &:hover {
-          background-color: #f9c74f;
+          background-color: #244a57;
         }
       }
     }
     .yellow {
       button {
-        background-color: #f9c74f;
+        background-color: #02A126;
         &:hover {
-          background-color: #fc4958;
+          background-color: #244a57;
         }
       }
     }
