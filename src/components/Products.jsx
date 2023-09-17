@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import product1 from "../assets/product1.jpg"
-import product2 from "../assets/product2.jpg"
-import product3 from "../assets/product3.jpg"
-import product4 from "../assets/product4.jpg"
+import product1 from "../assets/hab1.jpg"
+import product2 from "../assets/hab2.jpg"
+import product3 from "../assets/hab3.jpg"
+import product4 from "../assets/hab4.jpg"
 import { imageZoomEffect, TitleStyles } from './ReusableStyles'
 
 export default function Products() {
@@ -11,29 +11,29 @@ export default function Products() {
     {
       image: product1,
       name: "Chicken Burger",
-      price: "$22.4",
+      price: "$600",
     },
     {
       image: product2,
-      name: "Toasted Bread",
-      price: "$5.5",
+      name: "Lorem ipsum",
+      price: "$380",
     },
     {
       image: product3,
-      name: "Egg Sandwich",
-      price: "$8",
+      name: "Lorem ipsum",
+      price: "$550",
     },
     {
       image: product4,
-      name: "Raspberry Cake",
-      price: "$12.5",
+      name: "Lorem ipsum",
+      price: "$250",
     },
   ];
   return (
     <Section id="products">
       <div className="title">
         <h1>
-          <span>Favourite</span> All the time!
+          Conoce Nuestras<span> Habitaciones</span>
         </h1>
       </div>
       <div className="products">
@@ -45,8 +45,8 @@ export default function Products() {
                 </div>
                 <h2>{product.name}</h2>
                 <h3>{product.price}</h3>
-                <p>He Printing and Typesetting the industry. Lorem Ipsum has</p>
-                <button>Buy Now</button>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, recusandae.</p>
+                <button>Ver Más</button>
               </div>
             );
           })}
@@ -68,7 +68,7 @@ const Section = styled.section`
       justify-content: center;
       align-items: center;
       h3{
-        color: #fc4958
+        color: #244a57;
       }
       p{
         text-align: center;
@@ -82,6 +82,7 @@ const Section = styled.section`
         overflow: hidden;
         border-radius: 1rem;
         img{
+          aspect-ratio: auto;
           height: 20rem;
           width: 15rem;
           border-radius: 1rem;
@@ -94,9 +95,9 @@ const Section = styled.section`
         font-size: 1.4rem;
         border-radius: 4rem;
         cursor: pointer;
-        background: linear-gradient(to right, #fc4958, #e85d05);
+        background: linear-gradient(to right, #5f7f89, #244a57);
         &:hover{
-          background: linear-gradient(to left, #fc4958, #e85d05);
+          background: linear-gradient(to left, #244a57, #244a57,#5f7f89);
         }
       }
     }

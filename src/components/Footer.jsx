@@ -1,17 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from "../assets/FoodYummy.png";
+import logo from "../assets/logo_hotel.png";
 import {AiFillInstagram} from "react-icons/ai"
 import {BsTwitter} from "react-icons/bs"
 import {FaFacebookF} from "react-icons/fa"
 import {GrLinkedinOption} from "react-icons/gr"
+import {whatsapp_img} from "../assets/whatsapp.png"
 
 export default function Footer() {
   return (
     <div className="footer">
       <Section>
         <div className="brand container">
-          <img src={logo} alt="Logo" />
+          <h1>Hotel Posada Mirador & Spa GDL</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, consequatur.</p>
           <ul>
             <li><AiFillInstagram/></li>
@@ -22,7 +23,7 @@ export default function Footer() {
         </div>
         <div className="about container">
           <div className="title">
-            <h3>About Us</h3>
+            <h3>Sobre Nosotros</h3>
           </div>
           <p>
             Lorem ipsum, laborum sunt deleniti, amet maxime nulla, veritatis doloremque quis iure eos doloribus!
@@ -30,26 +31,25 @@ export default function Footer() {
         </div>
         <div className="contact container">
           <div className="title">
-            <h3>Contact Us</h3>
+            <h3>Contáctanos</h3>
           </div>
-            <p>+52 1231231231</p>
-            <p>foodyummy@gmail.com</p>
-            <p>@foodyummy</p>
-            <p>123 Street, Ground Floor, Austin, TX</p>
+            <p><a><whatsapp_img/></a>+52 33 3603 7803</p>
+            <p>hotelposadamirador@gmail.com</p>
+            <p>Volcán Hueytepec 5784, Guadalajara, Jalisco, Mexico</p>
         </div>
       </Section>
-      <LowerFooter className="lower">
+      {/* <LowerFooter className="lower">
         <h2>
-          Copyright &copy; 2023 <span>Food Yummy</span>
+          Copyright &copy; 2023 <span>Hotel Posada Mirador</span>
         </h2>
-      </LowerFooter>
+      </LowerFooter>*/} 
     </div>
   );
 }
 
 const Section = styled.footer`
   margin: 0;
-  background: linear-gradient(to right, #fc4958, #e85d05);
+  background: linear-gradient(to right, #244a57, #244a57);
   color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -76,7 +76,7 @@ const Section = styled.footer`
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #fc4958;
+        color: #244a57;
         font-size: 1.6rem;
         transition: 0.3 ease-in-out;
       }
@@ -119,7 +119,7 @@ const LowerFooter = styled.div`
   padding: 1rem;
   h2{
     span{
-      color: #fc4958;
+      color: #1cabdb;
       text-transform: uppercase;
     }
   }

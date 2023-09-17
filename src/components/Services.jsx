@@ -64,7 +64,7 @@ const Section = styled.section`
         font-size: 1.1rem;
         letter-spacing: 0.1rem;
         span{
-          color: #67b242;
+          color: #2390b7;
           font-weight: 600;
         }
       }
@@ -75,18 +75,18 @@ const Section = styled.section`
         font-size: 1.1rem;
         border: none;
         color: white;
-        background-color: #02A126;
+        background-color: #244a57;
         transition: 0.3s ease-in-out;
         &:hover {
-          background-color: #244a57;
+          background-color: #2390b7;
         }
       }
     }
     .yellow {
       button {
-        background-color: #02A126;
+        background-color: #244a57;
         &:hover {
-          background-color: #244a57;
+          background-color: #2390b7;
         }
       }
     }

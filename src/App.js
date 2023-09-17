@@ -25,7 +25,6 @@ export default function App() {
         #portfolio,
         #testimonials,
         #products,
-        #newsletter,
         .footer
     `,
       {
@@ -41,8 +40,8 @@ export default function App() {
       <Hero />
       <Services />
       <Portfolio />
+      <Testimonials />
       <Products />
-      <Newsletter />
       <Footer />
     </>
   );

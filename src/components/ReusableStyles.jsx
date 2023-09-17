@@ -8,12 +8,13 @@ export const TitleStyles = css`
         h1{
             font-size: 3rem;
             text-transform: uppercase;
+                color: #07bcf8
             span{
-                color: #fc4958
+                color: #07bcf8;
             }
         }
         .yellow{
-            color: #02A126;
+            color: #244a57;
         }
         p{
             padding: 0 10vw;
