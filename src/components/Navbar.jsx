@@ -38,13 +38,10 @@ export default function Navbar() {
             <a href="#portfolio">Agendar</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonios</a>
+            <a href="#testimonials">Mapa</a>
           </li>
           <li>
             <a href="#products">Habitaciones</a>
-          </li>
-          <li>
-            <a href="#newsletter">Mapa</a>
           </li>
         </ul>
       </Nav>
@@ -71,17 +68,12 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#testimonials" onClick={() => setNavbarState(false)}>
-              Testimonios
+              Mapa
             </a>
           </li>
           <li>
             <a href="#products" onClick={() => setNavbarState(false)}>
               Habitaciones
-            </a>
-          </li>
-          <li>
-            <a href="#newsletter" onClick={() => setNavbarState(false)}>
-              Mapa
             </a>
           </li>
         </ul>

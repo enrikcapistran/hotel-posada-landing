@@ -5,10 +5,20 @@ export const TitleStyles = css`
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        .mapa-h1{
+            color: #244a57;
+            font-weight: 300;
+        }
+        .mapa-span{
+            color: white;
+            font-weight: 300;
+        }
+        .mapa-header{
+            
+        }
         h1{
             font-size: 3rem;
             text-transform: uppercase;
-                color: #07bcf8
             span{
                 color: #07bcf8;
             }
@@ -27,7 +37,7 @@ export const TitleStyles = css`
         .title{
             gap: 1rem;
             h1{
-                font-size: 2rem;
+                font-size: 1.4rem;
             }
             p{
                 padding: 0 1vw;
@@ -44,3 +54,4 @@ export const imageZoomEffect = css`
         }
     }
 `;
+

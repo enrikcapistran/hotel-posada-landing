@@ -3,14 +3,14 @@ import styled from "styled-components";
 import background from "../assets/hotel_portfolio.jpg";
 export default function Portfolio() {
   return (
-    <Section id="portfolio">
+    <Section id="portfolio" className="porfolio-section">
       <div className="background">
         <img src={background} alt="Porfolio Img" />
       </div>
       <div className="content">
         <h1>Hotel Posada Mirador</h1>
         <h2>
-        Disfruten de nuestra vista espectacular hacia la Barranca de Huentitán. 
+        Disfrute de nuestra vista espectacular hacia la Barranca de Huentitán. 
         ¡Reserve su escapada perfecta ahora y déjese llevar por la belleza natural que nos rodea!
         </h2>
         <button>Reserve Aquí</button>
@@ -20,7 +20,8 @@ export default function Portfolio() {
 }
 
 const Section = styled.section`
-  height: 80vh;
+  height: 100vh;
+  width: 100vw;
   position: relative;
   border-radius: 5rem;
   &:hover {
@@ -75,14 +76,15 @@ const Section = styled.section`
       }
     }
   }
-  @media screen and (min-width: 260px) and (max-width: 1080px){
-    .contect{
+  @media screen and (min-width: 260px) and (max-width: 720px){
+    .content{
       h1{
+        margin-top: auto;
         width: 90%;
         font-size: 1.5rem;
       }
       h2{
-        font-size: 1.2rem;
+        font-size: 1rem;
         width: 90%;
       }
       button{

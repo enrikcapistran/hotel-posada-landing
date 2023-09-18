@@ -21,7 +21,7 @@ body {
 section,
 footer,
 .lower__footer{
-  margin: 0 5vw;
+  margin: 0 0vw;
 }
 
 section:first-of-type{
@@ -29,9 +29,15 @@ section:first-of-type{
 }
 
 section{
-  margin-top: 5%;
+  margin-top: 15%;
   margin-bottom: 5rem;
 }
+
+.porfolio-section{
+  margin-top: 15%;
+  margin-bottom: 0rem;
+}
+
 
 ::-webkit-scrollbar{
   background-color: white;
